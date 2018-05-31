@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Pipeline Homepage</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+
+  <style type="text/css">
+    html,
+    body,
+    header,
+    .view {
+      height: 100%;
+    }
+
+    @media (max-width: 740px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 1000px;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      html,
+      body,
+      header,
+      .view {
+        height: 650px;
+      }
+    }
+    @media (min-width: 800px) and (max-width: 850px) {
+              .navbar:not(.top-nav-collapse) {
+                  background: #1C2331!important;
+              }
+          }
+  </style>
+</head>
+
+<!-- Full Page Background -->
+<body class="view full-page-intro" style="background-image: url('interview.png'); background-repeat: no-repeat; background-size: cover;">
+
+  <!--Main Navigation-->
+   <header>
+     <!--Navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark elegant-color">
+  <div class="container">
+   <!-- Navbar brand -->
+  <a id="color-me" style="font-size: 34px" href="#"><b>Pipeline</b></a>
+   <!-- Collapse button -->
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav"
+       aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+   </button>
+   <!-- Collapsible content -->
+   <div class="collapse navbar-collapse" id="basicExampleNav">
+       <!-- Links -->
+       <ul class="navbar-nav mr-auto">
+
+       </ul>
+       <!-- Links -->
+       <form class="form-inline">
+           <div>
+             <form class="navbar-form pull-right">
+               <input class="span2" type="text" placeholder="Email">
+               <input class="span2" type="password" placeholder="Password">
+               <button type="submit" class="btn btn-primary btn-sm">Log In</button>
+             </form>
+           </div>
+           <p class="font-small white-text d-flex justify-content-end">Forgot <a href="#" class="white-text ml-1">Password?</a></p>
+       </form>
+   </div>
+   <!-- Collapsible content -->
+</div>
+</nav>
+<!--/.Navbar-->
+
+
+  <!-- Mask & flexbox options-->
+<div class="d-flex justify-content-center align-items-center location">
+<!-- hidden code <div class="location"> -->
+    <div class="row wow fadeIn">
+  <div class="col-md-7" >
+  <h1>
+    <div class="step-trigger step-1 Assessment fonts">Stop Applying.</div>
+  </h1>
+  <h4 class="summary step-3 fontz">
+    Let us help you find the culture you'll thrive in.</h4>
+
+  <!-- second line -->
+  <h1>
+    <div class="step-trigger step-1 Assessment fonts">Get Recruited.</div>
+  </h1>
+  <h4 class="summary step-3 fontz">
+    Pipeline connects you with recruiters by marketing your potential.</h4>
+  </div>
+
+<!-- Form -->
+
+<!--Grid column-->
+<div class="col-md-5 transp">
+  <section class="form-elegant">
+      <!--Form without header-->
+      <div class="card">
+          <div class="card-body w-100"> <!--size of contents inside-->
+              <!--Header-->
+              <div class="text-center">
+                  <h3 class="dark-grey-text mb-5"><strong>Get Started</strong></h3>
+              </div>
+              <!--Body-->
+              <div class="md-form">
+                  <input type="text" id="Form-email1" class="form-control">
+                  <label for="Form-email1">Name</label>
+              </div>
+              <div class="md-form">
+                  <input type="text" id="Form-email1" class="form-control">
+                  <label for="Form-email1">Email</label>
+              </div>
+
+              <div class="md-form pb-3">
+                  <input type="password" id="Form-pass1" class="form-control">
+                  <label for="Form-pass1">Password</label>
+              </div>
+
+              <div class="text-center mb-3">
+                  <button type="button" class="btn default-color btn-block btn-rounded z-depth-1a">Sign up</button>
+              </div>
+              <p class="font-small dark-grey-text text-right d-flex justify-content-center mb-3 pt-2"> or Sign in with:</p>
+
+                  <div class="row my-3 d-flex justify-content-center">
+                      <!--Facebook-->
+                      <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fa fa-facebook blue-text text-center"></i></button>
+                      <!--Twitter-->
+                      <button type="button" class="btn btn-white btn-rounded mr-md-3 z-depth-1a"><i class="fa fa-twitter blue-text"></i></button>
+                      <!--Google +-->
+                      <button type="button" class="btn btn-white btn-rounded z-depth-1a"><i class="fa fa-google-plus blue-text"></i></button>
+                  </div>
+
+          </div>
+
+
+      </div>
+      <!--/Form without header-->
+
+  </section>
+
+
+
+</div>
+<!--Grid column-->
+
+</div>
+<!--Grid row-->
+
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+  </script>
+</body>
+
+</html>
